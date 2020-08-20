@@ -1,14 +1,15 @@
 import React from "react";
-import Row from "./components/Row";
+import Row from "./components/Row/Row";
 import requests from "./requests";
-import Banner from "./components/Banner";
+import Banner from "./components/Banner/Banner";
+import NavBar from "./components/Navbar/Navbar";
 import "./App.css";
 
 function App() {
   return (
     <div className="app">
       {/* NavBar */}
-      {/* Barnner */}
+      <NavBar />
       <Banner />
       <Row
         title="Netflix Origionals"
